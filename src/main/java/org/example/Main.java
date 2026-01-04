@@ -1,12 +1,16 @@
 package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("");
+
+        System.out.println("Bank Account System");
+        System.out.println("1. Create Customer");
+        System.out.println("2. Remove Customer");
+        System.out.println("3. Create Account");
+        System.out.println("4. Remove Account");
+        System.out.println("5. Deposit");
+        System.out.println("6. WIthdrAw");
 
     }
 }
