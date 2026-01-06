@@ -25,7 +25,7 @@ public class Main {
             switch (choice) {
                 //case 1 -> createCustomer();
                 //case 2 -> removeCustomer();
-                case 3 -> bankingService.createAccount(700, customer);
+                //case 3 -> bankingService.createAccount(700, customer);
                 //case 4 -> removeAccount();
                 //case 5 -> deposit();
                 //case 6 -> withdraw();
