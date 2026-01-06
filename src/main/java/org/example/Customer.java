@@ -11,8 +11,12 @@ public class Customer {
         public Customer(String name, String phoneNumber, String email) {
             this.id = UUID.randomUUID().toString();
             this.name = name;
+            this.phoneNumber = phoneNumber;
             this.email = email;
         }
+    public String getId() {
+        return id;
+    }
 
     public String getName() {
         return name;
@@ -25,4 +29,5 @@ public class Customer {
     public String getEmail() {
         return email;
     }
+
 }
