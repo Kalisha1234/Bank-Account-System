@@ -86,8 +86,7 @@ public class Main {
                     customerMenu.removeCustomer();
                     waitForEnter(sc);
                 }
-                case 3 -> {
-                    bankingMenu.createAccount();
+                case 3 -> {bankingMenu.createAccount();
                     waitForEnter(sc);
                 }
                 case 4 -> {
